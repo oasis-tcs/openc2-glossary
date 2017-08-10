@@ -47,26 +47,30 @@ The ACTUATOR executes the ACTION on the TARGET.
 The action is the verb that is what the command is to do. 
 See LDD Section 3.3 for the ?36? actions in openC2. 
 In the example below the firewall is told to block (action=deny) an ip.
-                {
-"action": "deny",
-"target": {
-    "type": "ipv4-address",
-    …
-                 “actuator”: {
-                      “type”: “firewall”,
-                      ...
+````
+    {
+    "action": "deny",
+    "target": {
+        "type": "ipv4-address",
+        …
+    “actuator”: {
+        “type”: “firewall”,
+        ...
+````
 
 **Active Defense Harbinger Distribution** - a purple team unix distro
 
 **Actuator** - A specific field in the openC2 language. The ACTUATOR executes the ACTION on the TARGET. In the example below the firewall (an ACTUATOR) is told to block an ip
-                {
-"action": "deny",
-"target": {
-    "type": "ipv4-address",
-    …
-                 “actuator”: {
-                      “type”: “firewall”,
-                      ...
+````
+    {
+    "action": "deny",
+    "target": {
+        "type": "ipv4-address",
+        …
+    “actuator”: {
+       “type”: “firewall”,
+       ...
+````
 
 **Acting** - part of IACD
 
@@ -76,7 +80,8 @@ In the example below the firewall is told to block (action=deny) an ip.
 
 **Alert** - 
 
-**Application** - “A computer program that performs some desired function.” (IEEE Std 1003.5 - 1999. POSIX ADA)
+**Application** - “A computer program that performs some desired function.” 
+(IEEE Std 1003.5 - 1999. POSIX ADA)
 
 **Black List** - 
 
@@ -114,7 +119,8 @@ In the example below the firewall is told to block (action=deny) an ip.
 
 **IEEE** - 
 
-**Integrated Active Cyber Defense** - say something. See https://secwww.jhuapl.edu/iacdcommunityday/Resources/IACD%20Baseline%20Reference%20Architecture%20-%20Final%20PR.pdf
+**Integrated Active Cyber Defense** - say something. 
+See https://secwww.jhuapl.edu/iacdcommunityday/Resources/IACD%20Baseline%20Reference%20Architecture%20-%20Final%20PR.pdf
 
 **ISO** - 
 
@@ -136,7 +142,11 @@ In the example below the firewall is told to block (action=deny) an ip.
 
 **Modifier** - part of OpenC2
 
-**Module** - “ (A) A program unit that is discrete and identifiable with respect to compiling, combining with other units, and loading; for example, input to or output from an assembler, compiler, linkage editor, or executive routine.  (B) A logically separable part of a program.” (IEEE Std 1633-2008 Software Reliability)
+**Module** - “ (A) A program unit that is discrete and identifiable with respect to compiling, 
+combining with other units, and loading; 
+for example, input to or output from an assembler, 
+compiler, linkage editor, or executive routine.  
+(B) A logically separable part of a program.” (IEEE Std 1633-2008 Software Reliability)
 
 **NIST** - National Institute of Standards - an agency of the US federal government
 
@@ -146,7 +156,8 @@ In the example below the firewall is told to block (action=deny) an ip.
 
 **OpenC2** - duh?
 
-**Orchestrator - In IT and security there are many types of orchestrators. in the context of openC2 the word orchestrator is defined more narrowly to mean “what goes here”
+**Orchestrator - In IT and security there are many types of orchestrators. 
+in the context of openC2 the word orchestrator is defined more narrowly to mean “what goes here”
 
 **OrchID** - 
 
@@ -154,7 +165,9 @@ In the example below the firewall is told to block (action=deny) an ip.
 
 **Point2Point** - 
 
-**Program** - “A combination of computer instructions and data definitions that enable computer hardware to perform computational or control functions.” (The IEEE Standards Dictionary: Glossary of Terms & Definitions, IEEE Std 610.12-1990 )
+**Program** - “A combination of computer instructions and data definitions 
+that enable computer hardware to perform computational or control functions.” 
+(The IEEE Standards Dictionary: Glossary of Terms & Definitions, IEEE Std 610.12-1990 )
 
 **Proxy** - 
 
@@ -187,7 +200,7 @@ ISO/IEC 24765:2009 defines software as:
 **STIX** - 
 
 **Target** - part of OpenC2. The ACTUATOR executes the ACTION on the TARGET. In the example below the firewall is told to block an ip (the TARGET).
-````json
+````
     {
     "action": "deny",
     "target": {
