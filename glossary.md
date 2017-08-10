@@ -182,26 +182,31 @@ ISO/IEC 24765:2009 defines software as:
 > (1) all or part of the programs, procedures, rules, and associated documentation of an information processing system.
 > (2) computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer system.
 
-**Specifier - part of OpenC2
+**Specifier** - part of OpenC2
 
-**STIX - 
+**STIX** - 
 
-**Target - part of OpenC2. The ACTUATOR executes the ACTION on the TARGET. In the example below the firewall is told to block an ip (the TARGET).
-                {
-"action": "deny",
-"target": {
-    "type": "ipv4-address",
-    …
-                 “actuator”: {
-                      “type”: “firewall”,
-                      ...
+**Target** - part of OpenC2. The ACTUATOR executes the ACTION on the TARGET. In the example below the firewall is told to block an ip (the TARGET).
+````json
+    {
+    "action": "deny",
+    "target": {
+        "type": "ipv4-address",
+        …
+        }
+    “actuator”: {
+        “type”: “firewall”,
+        ...
+        }
+    }
+````
 
-**Threat - 
+**Threat** - 
 
-**Virtual Machine - 
+**Virtual Machine** - 
 
-**Whitelist - 
+**Whitelist** - 
 
-**Yuuki - 
+**Yuuki** - 
 
 
