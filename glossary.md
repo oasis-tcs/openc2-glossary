@@ -1,13 +1,14 @@
-This is the OpenC2 dictionary/glossary.
-
-It is in very draft form - don’t look at it yet
-
 Other than these first few lines, the document below is the same
 as the document appoved by the OpenC2 forum.
 For OASIS OpenC2 TC, this will be considered version 0.1.0
 and considered the baseline.
 
 ------
+
+This is the OpenC2 dictionary/glossary.
+
+It is in very draft form - don’t look at it yet
+
 
 Some caveat about definitions in context of openc2
 
