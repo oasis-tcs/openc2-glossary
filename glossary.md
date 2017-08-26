@@ -103,8 +103,6 @@ MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 
 ## 0.8 Table of Contents
 
-[ToC]
-
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
 - [0. Preface](#)
@@ -131,8 +129,8 @@ MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 	- [3.2 F-I](#)
 	- [3.3 J-N](#)
 	- [3.4 O-R](#)
-	- [3.5 S-Z](#)
-- [4. Bibliography & Endnotes3. Bibliography & Endnotes](#)
+	- [3.5 S-Z](#35S-Z)
+- [4. Bibliography and Endnotes(#4bibliographyandendnotes)
 
 ------
 put in table of Figures
@@ -400,7 +398,7 @@ ISO/IEC 24765:2009 defines software as:
 
 **Yuuki** - 
 
-# 4. Bibliography & Endnotes3. Bibliography & Endnotes
+# 4. Bibliography and Endnotes
   1. make this a list of anything referenced
   1. and any endnotes
   1. will need to keep in sync unless MD can do it automagically
