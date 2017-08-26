@@ -101,9 +101,36 @@ INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION
 HEREIN WILL NOT INFRINGE ANY OWNERSHIP RIGHTS OR ANY IMPLIED WARRANTIES OF 
 MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 
-------
-put in table of contents
-------
+## 0.8 Table of Contents
+
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [0. Preface](#)
+	- [0.1 Technical Committee:](#)
+	- [0.2 Editors:](#)
+	- [0.3 Related Work:](#)
+	- [0.4 Abstract:](#)
+	- [0.5 Status:](#)
+	- [0.6 URI patterns:](#)
+	- [0.7 Copyright](#)
+	- [put in table of contents](#)
+	- [put in table of Figures](#)
+- [1. Introduction](#)
+	- [1.1 Goal](#)
+	- [1.2 Purpose and Scope](#)
+	- [1.3 Terminology](#)
+	- [1.4 Normative References](#)
+	- [1.5 Non-normative References](#)
+	- [1.6 Conformance](#)
+	- [1.7 Acknoledgments](#)
+- [2. Context](#)
+- [3. Glossary](#)
+	- [3.1 A-E](#)
+	- [3.2 F-I](#)
+	- [3.3 J-N](#)
+	- [3.4 O-R](#)
+	- [3.5 S-Z](#)
+- [4. Bibliography & Endnotes3. Bibliography & Endnotes](#)
 
 ------
 put in table of Figures
