@@ -1,9 +1,147 @@
+delete next few lines once others in place
+
 Other than these first few lines, the document below is the same
 as the document appoved by the OpenC2 forum.
 For OASIS OpenC2 TC, this will be considered version 0.1.0
 and considered the baseline.
 
 ------
+
+put in logo
+
+Version 0.1.2 (centered)
+
+OpenC2 Glossary
+
+# 0. Preface
+
+25-August-2017 (update once 0.1.2 stable)
+
+## 0.1 Technical Committee:
+OASIS OpenC2 Technical Committee
+Chair:
+  * Joe Brule (jmbrule@nsa.gov), National Security Agency
+  * Sounil Yu (sounil.yu@bankofamerica.com), Bank of America
+
+## 0.2 Editors:
+  * Duncan Sparrell (duncan@sfractal.com), sFractal Consulting LLC
+
+## 0.3 Related Work:
+This glossary is related to:
+  * TODO: reference language spec
+  * TODO: reference profiles
+  * TODO: reference implementation docs
+
+## 0.4 Abstract:
+
+This Glossay is non-normative and is to inform readers 
+of the OpenC2 specifications.
+
+Cyberattacks are increasingly sophisticated, less expensive to execute, 
+dynamic and automated. 
+The provision of cyberdefense via statically configured products 
+operating in isolation is no longer tenable. 
+Standardized interfaces, protocols and data models 
+will facilitate the integration of the functional blocks 
+within a system or enterprise. 
+Open Command and Control (OpenC2) is a concise and extensible language 
+to enable the command and control of cyber defense components, 
+subsystems and/or systems in a manner 
+that is agnostic of the underlying products, 
+technologies, transport mechanisms or other aspects of the implementation. 
+The motivation behind OpenC2 was to enable 
+command and control of cyber defense and recognizes it should 
+be understood that a language such as OpenC2 is necessary 
+but insufficient to enable coordinated cyber response. 
+Other aspects of coordinated cyber response such as sensing, 
+analytics, and selecting appropriate 
+courses of action are beyond the scope of OpenC2.
+
+## 0.5 Status:
+
+This Working Draft (WD) has been produced by one or more TC Members; 
+it has not yet been voted on by the TC 
+or approved as a Committee Draft 
+(Committee Specification Draft or a Committee Note Draft). 
+The OASIS document Approval Process begins officially with a 
+TC vote to approve a WD as a Committee Draft. 
+A TC may approve a Working Draft, revise it, 
+and re-approve it any number of times as a Committee Draft.
+
+
+## 0.6 URI patterns:
+
+Initial publication URI:
+
+Permanent “Latest version” URI:
+
+## 0.7 Copyright
+(Managed by OASIS TC Administration; please don’t modify.)
+Copyright © OASIS Open 2017. All Rights Reserved.
+All capitalized terms in the following text have the meanings assigned to them in the 
+OASIS Intellectual Property Rights Policy (the "OASIS IPR Policy"). 
+The full Policy may be found at the OASIS website.
+This document and translations of it may be copied and furnished to others, 
+and derivative works that comment on or otherwise explain it 
+or assist in its implementation may be prepared, copied, published, and distributed, 
+in whole or in part, without restriction of any kind, 
+provided that the above copyright notice and this section are included 
+on all such copies and derivative works. However, this document itself 
+may not be modified in any way, including by removing the copyright notice 
+or references to OASIS, except as needed for the purpose of developing any 
+document or deliverable produced by an OASIS Technical Committee 
+(in which case the rules applicable to copyrights, 
+as set forth in the OASIS IPR Policy, must be followed) 
+or as required to translate it into languages other than English.
+The limited permissions granted above are perpetual 
+and will not be revoked by OASIS or its successors or assigns.
+This document and the information contained herein is provided on an 
+"AS IS" basis and OASIS DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION 
+HEREIN WILL NOT INFRINGE ANY OWNERSHIP RIGHTS OR ANY IMPLIED WARRANTIES OF 
+MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+------
+put in table of contents
+------
+
+------
+put in table of Figures
+------
+
+# 1. Introduction
+
+blah
+
+## 1.1 Goal
+
+blah
+
+## 1.2 Purpose and Scope
+
+blah
+
+## 1.3 Terminology
+
+blah
+
+## 1.4 Normative References
+
+## 1.5 Non-normative References
+
+## 1.6 Conformance
+
+## 1.7 Acknoledgments
+
+# 2. Context
+
+# 3. Glossary
+
+
+
+
+
+
 
 This is the OpenC2 dictionary/glossary.
 
@@ -38,6 +176,7 @@ Need style guide for glossary
 
 Should it be wiki instead of google doc?
 
+## 3.1 A-E
 
 **Action** - 
 (A) In context of openC2, “action” is sometime used as part of normal english e.g. 
@@ -105,6 +244,9 @@ In the example below the firewall is told to block (action=deny) an ip.
 
 **Enterprise** - 
 
+## 3.2 F-I
+
+
 **Firewall** -in the context of openC2, firewall denotes the firewall functionality of an actuator ie hardware and/or software system that monitors incoming and outgoing network traffic and controls that traffic (eg logs, blocks, allows) based on security policy defined by a set of rules.
 
 **Hacker** - White or Black Hat, Red/Blue/Purple Team
@@ -125,6 +267,8 @@ See https://secwww.jhuapl.edu/iacdcommunityday/Resources/IACD%20Baseline%20Refer
 **ISO** - 
 
 **ITU** - 
+
+## 3.3 J-N
 
 **JADN** - 
 
@@ -149,6 +293,8 @@ compiler, linkage editor, or executive routine.
 (B) A logically separable part of a program.” (IEEE Std 1633-2008 Software Reliability)
 
 **NIST** - National Institute of Standards - an agency of the US federal government
+
+## 3.4 O-R
 
 **OASIS** - duh?
 
@@ -178,6 +324,9 @@ that enable computer hardware to perform computational or control functions.”
 **Reference Implementation** - 
 
 **Response** - 
+
+
+## 3.5 S-Z
 
 **SDN** - Software Defined Network
 
@@ -222,4 +371,7 @@ ISO/IEC 24765:2009 defines software as:
 
 **Yuuki** - 
 
-
+# 4. Bibliography & Endnotes3. Bibliography & Endnotes
+  1. make this a list of anything referenced
+  1. and any endnotes
+  1. will need to keep in sync unless MD can do it automagically
