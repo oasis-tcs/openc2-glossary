@@ -1,17 +1,14 @@
-delete next few lines once others in place
-
-Other than these first few lines, the document below is the same
-as the document appoved by the OpenC2 forum.
-For OASIS OpenC2 TC, this will be considered version 0.1.0
-and considered the baseline.
-
 ------
 
 put in logo
 
+------
 Version 0.1.2 (centered)
 
-OpenC2 Glossary
+------
+<p align="center">
+#OpenC2 Glossary
+</p>
 
 # 0. Preface
 
