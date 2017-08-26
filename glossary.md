@@ -4,31 +4,28 @@
 
 
 # OpenC2 Glossary
-
-<p align="center">
 Version 0.1.2
-</p>
 
-# 0. Preface
+## 0. Preface
 
 25-August-2017 (update once 0.1.2 stable)
 
-## 0.1 Technical Committee:
+### 0.1 Technical Committee:
 OASIS OpenC2 Technical Committee
 Chair:
   * Joe Brule (jmbrule@nsa.gov), National Security Agency
   * Sounil Yu (sounil.yu@bankofamerica.com), Bank of America
 
-## 0.2 Editors:
+### 0.2 Editors:
   * Duncan Sparrell (duncan@sfractal.com), sFractal Consulting LLC
 
-## 0.3 Related Work:
+### 0.3 Related Work:
 This glossary is related to:
   * TODO: reference language spec
   * TODO: reference profiles
   * TODO: reference implementation docs
 
-## 0.4 Abstract:
+### 0.4 Abstract:
 
 This Glossay is non-normative and is to inform readers 
 of the OpenC2 specifications.
@@ -53,7 +50,7 @@ Other aspects of coordinated cyber response such as sensing,
 analytics, and selecting appropriate 
 courses of action are beyond the scope of OpenC2.
 
-## 0.5 Status:
+### 0.5 Status:
 
 This Working Draft (WD) has been produced by one or more TC Members; 
 it has not yet been voted on by the TC 
@@ -65,13 +62,13 @@ A TC may approve a Working Draft, revise it,
 and re-approve it any number of times as a Committee Draft.
 
 
-## 0.6 URI patterns:
+### 0.6 URI patterns:
 
 Initial publication URI:
 
 Permanent “Latest version” URI:
 
-## 0.7 Copyright
+### 0.7 Copyright
 (Managed by OASIS TC Administration; please don’t modify.)
 Copyright © OASIS Open 2017. All Rights Reserved.
 All capitalized terms in the following text have the meanings assigned to them in the 
@@ -97,7 +94,7 @@ INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION
 HEREIN WILL NOT INFRINGE ANY OWNERSHIP RIGHTS OR ANY IMPLIED WARRANTIES OF 
 MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 
-## 0.8 Table of Contents
+### 0.8 Table of Contents
 
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
@@ -125,40 +122,40 @@ MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 	- [3.2 F-I](#)
 	- [3.3 J-N](#)
 	- [3.4 O-R](#)
-	- [3.5 S-Z](#35S-Z)
-- [4. Bibliography and Endnotes(#4bibliographyandendnotes)
+	- [3.5 S-Z](#35s-z)
+- [4. Bibliography and Endnotes](#4bibliographyandendnotes)
 
 ------
 put in table of Figures
 ------
 
-# 1. Introduction
+## 1. Introduction
 
 blah
 
-## 1.1 Goal
+### 1.1 Goal
 
 blah
 
-## 1.2 Purpose and Scope
+### 1.2 Purpose and Scope
 
 blah
 
-## 1.3 Terminology
+### 1.3 Terminology
 
 blah
 
-## 1.4 Normative References
+### 1.4 Normative References
 
-## 1.5 Non-normative References
+### 1.5 Non-normative References
 
-## 1.6 Conformance
+### 1.6 Conformance
 
-## 1.7 Acknowledgments
+### 1.7 Acknowledgments
 
-# 2. Context
+## 2. Context
 
-# 3. Glossary
+## 3. Glossary
 
 
 
@@ -199,7 +196,7 @@ Need style guide for glossary
 
 Should it be wiki instead of google doc?
 
-## 3.1 A-E
+### 3.1 A-E
 
 **Action** - 
 (A) In context of openC2, “action” is sometime used as part of normal english e.g. 
@@ -267,7 +264,7 @@ In the example below the firewall is told to block (action=deny) an ip.
 
 **Enterprise** - 
 
-## 3.2 F-I
+### 3.2 F-I
 
 
 **Firewall** -in the context of openC2, firewall denotes the firewall functionality of an actuator ie hardware and/or software system that monitors incoming and outgoing network traffic and controls that traffic (eg logs, blocks, allows) based on security policy defined by a set of rules.
@@ -291,7 +288,7 @@ See https://secwww.jhuapl.edu/iacdcommunityday/Resources/IACD%20Baseline%20Refer
 
 **ITU** - 
 
-## 3.3 J-N
+### 3.3 J-N
 
 **JADN** - 
 
@@ -317,7 +314,7 @@ compiler, linkage editor, or executive routine.
 
 **NIST** - National Institute of Standards - an agency of the US federal government
 
-## 3.4 O-R
+### 3.4 O-R
 
 **OASIS** - duh?
 
@@ -349,7 +346,7 @@ that enable computer hardware to perform computational or control functions.”
 **Response** - 
 
 
-## 3.5 S-Z
+### 3.5 S-Z
 
 **SDN** - Software Defined Network
 
@@ -394,7 +391,7 @@ ISO/IEC 24765:2009 defines software as:
 
 **Yuuki** - 
 
-# 4. Bibliography and Endnotes
+## 4. Bibliography and Endnotes
   1. make this a list of anything referenced
   1. and any endnotes
   1. will need to keep in sync unless MD can do it automagically
