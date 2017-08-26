@@ -122,8 +122,8 @@ MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 	- [3.2 F-I](#)
 	- [3.3 J-N](#)
 	- [3.4 O-R](#)
-	- [3.5 S-Z](#-35s-z)
-- [4. Bibliography and Endnotes](#-4bibliographyandendnotes)
+	- [3.5 S-Z](#35-s-z)
+- [4. Bibliography and Endnotes](#4-bibliography-and-endnotes)
 
 ------
 put in table of Figures
