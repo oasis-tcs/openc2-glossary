@@ -1,13 +1,14 @@
-------
-
 put in logo
 
 ------
-Version 0.1.2 (centered)
 
 ------
 <p align="center">
-#OpenC2 Glossary
+<font size="+6">**OpenC2 Glossary**</font>
+</p>
+
+<p align="center">
+Version 0.1.2
 </p>
 
 # 0. Preface
