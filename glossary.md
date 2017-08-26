@@ -103,6 +103,8 @@ MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 
 ## 0.8 Table of Contents
 
+[ToC]
+
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
 - [0. Preface](#)
@@ -122,7 +124,7 @@ MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 	- [1.4 Normative References](#)
 	- [1.5 Non-normative References](#)
 	- [1.6 Conformance](#)
-	- [1.7 Acknoledgments](#)
+	- [1.7 Acknowledgments](#)
 - [2. Context](#)
 - [3. Glossary](#)
 	- [3.1 A-E](#)
@@ -158,7 +160,7 @@ blah
 
 ## 1.6 Conformance
 
-## 1.7 Acknoledgments
+## 1.7 Acknowledgments
 
 # 2. Context
 
