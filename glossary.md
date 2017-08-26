@@ -6,9 +6,9 @@
 # OpenC2 Glossary
 Version 0.1.2
 
-## 0. Preface
-
 25-August-2017 (update once 0.1.2 stable)
+
+## 0. Preface
 
 ### 0.1 Technical Committee:
 OASIS OpenC2 Technical Committee
@@ -122,8 +122,8 @@ MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 	- [3.2 F-I](#)
 	- [3.3 J-N](#)
 	- [3.4 O-R](#)
-	- [3.5 S-Z](#35s-z)
-- [4. Bibliography and Endnotes](#4bibliographyandendnotes)
+	- [3.5 S-Z](#-35s-z)
+- [4. Bibliography and Endnotes](#-4bibliographyandendnotes)
 
 ------
 put in table of Figures
