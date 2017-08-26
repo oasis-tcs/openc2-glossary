@@ -1,8 +1,6 @@
-put in logo
+![OASIS Logo](https://www.oasis-open.org/sites/www.oasis-open.org/files/logo.png)
 
-------
 
-------
 <p align="center">
 <font size="+6">**OpenC2 Glossary**</font>
 </p>
