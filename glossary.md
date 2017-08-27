@@ -22,9 +22,16 @@ Chair:
 ### 0.3 Related Work:
 This glossary is related to:
   * OASIS OpenC2 Language Specification<sup>[1](#footnote01)</sup>
-  * TODO: reference language spec
-  * TODO: reference profiles
-  * TODO: reference implementation docs
+  * OASIS OpenC2 Firewall Acutator Profile<sup>[2](#footnote02)</sup>
+  * OASIS OpenC2 SDN Acutator Profile<sup>[3](#footnote03)</sup>
+  * OASIS OpenC2 Information Assurance Implementation Considerations<sup>[4](#footnote04)</sup>
+
+Because of the use of OpenC2 in the STIX Course of Action (CoA), this glossary is also related to:
+  * OASIS STIX-v2.0-Pt1-Core<sup>[5](#footnote05)</sup>
+  * OASIS STIX-v2.0-Pt2-Objects<sup>[6](#footnote06)</sup>
+  * OASIS STIX-v2.0-Pt3-Cyb-Core<sup>[7](#footnote07)</sup>
+  * OASIS STIX-v2.0-Pt4-Cyb-Objects<sup>[8](#footnote08)</sup>
+  * OASIS STIX-v2.0-Pt5-Patterning<sup>[9](#footnote09)</sup>
 
 ### 0.4 Abstract:
 
@@ -69,13 +76,20 @@ A TC may approve a Working Draft, revise it,
 and re-approve it any number of times as a Committee Draft.
 
 
-### 0.7 URI patterns:
+### 0.7 URI patterns
 
 Initial publication URI:
+* TODO
 
 Permanent “Latest version” URI:
+* TODO
 
-### 0.8 Copyright
+### 0.8 Citation format
+When referencing this specification the following citation format should be used:
+[OpenC2 Glossary]
+OpenC2 Glossary. Edited by Duncan Sparrell and TODO. Date-TODO. OASIS TODO. link TODO.
+
+### NOTICES
 (Managed by OASIS TC Administration; please don’t modify.)
 Copyright © OASIS Open 2017. All Rights Reserved.
 All capitalized terms in the following text have the meanings assigned to them in the 
@@ -101,8 +115,6 @@ INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION
 HEREIN WILL NOT INFRINGE ANY OWNERSHIP RIGHTS OR ANY IMPLIED WARRANTIES OF 
 MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 
-### 0.9 Tables of Contents and Figures
-
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
 - [0. Preface](#0-preface)
@@ -110,11 +122,11 @@ MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 	- [0.2 Editors:](#02-editors)
 	- [0.3 Related Work:](#03-related-work)
 	- [0.4 Abstract:](#04-abstract)
-	- [0.5 Status:](#05-status)
-	- [0.6 URI patterns:](#06-uri-patterns)
-	- [0.7 Copyright](#07-copyright)
-	- [0.8 Table of Contents](#08-table-of-contents)
-	- [0.9 Table of Figures](#09-table-of-figures)
+	- [0.5 Version:](#05-version)
+	- [0.6 Status:](#06-status)
+	- [0.7 URI patterns:](#07-uri-patterns)
+	- [0.8 Citation format](#08-citation-format)
+	- [Notices](#notices)
 - [1. Introduction](#1-introduction)
 	- [1.1 Goal](#11-goal)
 	- [1.2 Purpose and Scope](#12-purpose-and-scope)
@@ -152,7 +164,9 @@ blah
 
 ### 1.3 Terminology
 
-blah
+The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, 
+“RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in 
+RFC2119<sup>[1](#footnote01)</sup>.
 
 ### 1.4 Normative References
 This glossary is non-normative and there are no normative references.
@@ -397,13 +411,16 @@ ISO/IEC 24765:2009 defines software as:
 
 ## 4. Bibliography and Endnotes
 1. Working Draft of <a name="footnote01">OASIS OpenC2 Language Specification</a> ;change this to proper reference format; hotlink to draft; this will be updated as LS moves thru standardization
-1. Working Draft of OASIS OpenC2 Actuator Profiles
-  * hotlink to draft
-  * this will be updated as profiles move thru standardization
-1. Working Draft of OASIS OpenC2 Implementation Considerations
-  * hotlink to draft
-  * this will be updated as IC moves thru standardization
-1. =*=*=*=*=*=*=*=*=*=*=*=*
+2. Working Draft of <a name="footnote02">OASIS OpenC2 Firewall Acutator Profile</a> ;change this to proper reference format; hotlink to draft; this will be updated as profile moves thru standardization
+3. Working Draft of <a name="footnote03">OASIS OpenC2 SDN Acutator Profile</a> ;change this to proper reference format; hotlink to draft; this will be updated as profile moves thru standardization
+4. Working Draft of <a name="footnote04">OASIS OpenC2 Information Assurance Implementation Considerations</a> ;change this to proper reference format; this will be updated as profile moves thru standardization; hotlink to https://www.oasis-open.org/apps/org/workgroup/openc2-imple/download.php/61449/OpenC2%20IA%20Implementation%20Considerations_RCv1.0.pdf
+5. STIX-v2.0-Pt1-Core - <a name="footnote05">STIX™ Version 2.0. Part 1: STIX Core Concepts</a>. Edited by Rich Piazza, John Wunder, and Bret Jordan. 03 May 2017. OASIS Committee Specification Draft 02 / Public Review Draft 02. http://docs.oasis-open.org/cti/stix/v2.0/csprd02/part1-stix-core/stix-v2.0-csprd02-part1-stix-core.html. Latest version: http://docs.oasis-open.org/cti/stix/v2.0/stix-v2.0-part1-stix-core.html.
+6. STIX-v2.0-Pt2-Objects - <a name="footnote06">STIX™ Version 2.0. Part 1: STIX Core Concepts</a>. Edited by Rich Piazza, John Wunder, and Bret Jordan. 03 May 2017. OASIS Committee Specification Draft 02 / Public Review Draft 02. http://docs.oasis-open.org/cti/stix/v2.0/csprd02/part1-stix-core/stix-v2.0-csprd02-part1-stix-core.html. Latest version: http://docs.oasis-open.org/cti/stix/v2.0/stix-v2.0-part1-stix-core.html
+7. STIX-v2.0-Pt3-Cyb-Core - <a name="footnote07">STIX™ Version 2.0. Part 3: Cyber Observable Core Concepts</a>. Edited by Trey Darley and Ivan Kirillov. 03 May 2017. OASIS Committee Specification Draft 02 / Public Review Draft 02. http://docs.oasis-open.org/cti/stix/v2.0/csprd02/part3-cyber-observable-core/stix-v2.0-csprd02-part3-cyber-observable-core.html. Latest version: http://docs.oasis-open.org/cti/stix/v2.0/stix-v2.0-part3-cyber-observable-core.html.
+8. STIX-v2.0-Pt4-Cyb-Objects - <a name="footnote08">STIX™ Version 2.0. Part 4: Cyber Observable Objects</a>. Edited by Trey Darley and Ivan Kirillov. 03 May 2017. OASIS Committee Specification Draft 02 / Public Review Draft 02. http://docs.oasis-open.org/cti/stix/v2.0/csprd02/part4-cyber-observable-objects/stix-v2.0-csprd02-part4-cyber-observable-objects.html. Latest version: http://docs.oasis-open.org/cti/stix/v2.0/stix-v2.0-part4-cyber-observable-objects.html.
+9. STIX-v2.0-Pt5-Patterning - <a name="footnote09">STIX™ Version 2.0. Part 5: STIX Patterning</a>. Edited by Trey Darley and Ivan Kirillov. 03 May 2017. OASIS Committee Specification Draft 02 / Public Review Draft 02. http://docs.oasis-open.org/cti/stix/v2.0/csprd02/part5-stix-patterning/stix-v2.0-csprd02-part5-stix-patterning.html. Latest version: http://docs.oasis-open.org/cti/stix/v2.0/stix-v2.0-part5-stix-patterning.html.
+10. RFC2119 - <a name="footnote10">“Key words for use in RFCs to Indicate Requirement Levels”</a>. S Bradner, BCP 14, RFC 2119, March 1997. [Online]. Available: http://www.ietf.org/rfc/rfc2119.txt
+1. =*=*=*=*=*=*=*=*=*=*=*=* need to fill in after this as refs added to document
 1. make this a list of anything referenced
 1. and any endnotes
 1. will need to keep in sync unless MD can do it automagically
