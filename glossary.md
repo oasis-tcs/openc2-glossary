@@ -21,6 +21,7 @@ Chair:
 
 ### 0.3 Related Work:
 This glossary is related to:
+  * OASIS OpenC2 Language Specification<sup>[1](#footnote01)</sup>
   * TODO: reference language spec
   * TODO: reference profiles
   * TODO: reference implementation docs
@@ -50,7 +51,13 @@ Other aspects of coordinated cyber response such as sensing,
 analytics, and selecting appropriate 
 courses of action are beyond the scope of OpenC2.
 
-### 0.5 Status:
+### 0.5 Version:
+The versioning pattern for this document will be T.L.C where:
+  * T - incremented each time the OpenC2 Technical Committee approves this document as a Committee Note Draft (editorial note - or is this a specification draft?)
+  * L - incremented each time the OpenC2 Language Subcommittee reviews this document and agrees to the content
+  * C - incremented each time the OpenC2
+
+### 0.6 Status:
 
 This Working Draft (WD) has been produced by one or more TC Members; 
 it has not yet been voted on by the TC 
@@ -62,13 +69,13 @@ A TC may approve a Working Draft, revise it,
 and re-approve it any number of times as a Committee Draft.
 
 
-### 0.6 URI patterns:
+### 0.7 URI patterns:
 
 Initial publication URI:
 
 Permanent “Latest version” URI:
 
-### 0.7 Copyright
+### 0.8 Copyright
 (Managed by OASIS TC Administration; please don’t modify.)
 Copyright © OASIS Open 2017. All Rights Reserved.
 All capitalized terms in the following text have the meanings assigned to them in the 
@@ -94,40 +101,42 @@ INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION
 HEREIN WILL NOT INFRINGE ANY OWNERSHIP RIGHTS OR ANY IMPLIED WARRANTIES OF 
 MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
 
-### 0.8 Table of Contents
+### 0.9 Tables of Contents and Figures
 
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [0. Preface](#)
-	- [0.1 Technical Committee:](#)
-	- [0.2 Editors:](#)
-	- [0.3 Related Work:](#)
-	- [0.4 Abstract:](#)
-	- [0.5 Status:](#)
-	- [0.6 URI patterns:](#)
-	- [0.7 Copyright](#)
-	- [put in table of contents](#)
-	- [put in table of Figures](#)
-- [1. Introduction](#)
-	- [1.1 Goal](#)
-	- [1.2 Purpose and Scope](#)
-	- [1.3 Terminology](#)
-	- [1.4 Normative References](#)
-	- [1.5 Non-normative References](#)
-	- [1.6 Conformance](#)
-	- [1.7 Acknowledgments](#)
-- [2. Context](#)
+- [0. Preface](#0-preface)
+	- [0.1 Technical Committee:](#01-technical-committee)
+	- [0.2 Editors:](#02-editors)
+	- [0.3 Related Work:](#03-related-work)
+	- [0.4 Abstract:](#04-abstract)
+	- [0.5 Status:](#05-status)
+	- [0.6 URI patterns:](#06-uri-patterns)
+	- [0.7 Copyright](#07-copyright)
+	- [0.8 Table of Contents](#08-table-of-contents)
+	- [0.9 Table of Figures](#09-table-of-figures)
+- [1. Introduction](#1-introduction)
+	- [1.1 Goal](#11-goal)
+	- [1.2 Purpose and Scope](#12-purpose-and-scope)
+	- [1.3 Terminology](#13-terminology)
+	- [1.4 Normative References](#14-normative-references)
+	- [1.5 Non-normative References](#15-non-normative-references)
+	- [1.6 Conformance](#16-conformance)
+	- [1.7 Acknowledgments](#17-acknowledgments)
+- [2. Context](#2-context)
 - [3. Glossary](#)
-	- [3.1 A-E](#)
-	- [3.2 F-I](#)
-	- [3.3 J-N](#)
-	- [3.4 O-R](#)
+	- [3.1 A-E](#31-a-e)
+	- [3.2 F-I](#32-f-i)
+	- [3.3 J-N](#33-j-n)
+	- [3.4 O-R](#34-o-r)
 	- [3.5 S-Z](#35-s-z)
 - [4. Bibliography and Endnotes](#4-bibliography-and-endnotes)
 
-------
-put in table of Figures
-------
+(Editor's note - remember to update ToC and ToF with each version TODO)
+
+**Table of Figures**  
+
+add tof here TODO
 
 ## 1. Introduction
 
@@ -146,8 +155,25 @@ blah
 blah
 
 ### 1.4 Normative References
+This glossary is non-normative and there are no normative references.
 
 ### 1.5 Non-normative References
+This Glossary attempts to make use of definintions from other sources where possible.
+The [Endnotes](#4-bibliography-and-endnotes) contain the full reference and 
+endnotes are used when a definition is quoted from another source.
+
+References cited in this glossary:
+
+  * Webster
+  * IEEE Dictionary - http://ieeexplore.ieee.org/xpls/dictionary.jsp
+  * ISO
+  * IETF
+  * ITU
+  * NIST
+    * NISTIR 7298 Revision 2
+  * OASIS
+  * OpenC2 specs
+
 
 ### 1.6 Conformance
 
@@ -157,31 +183,9 @@ blah
 
 ## 3. Glossary
 
-
-
-
-
-
-
-This is the OpenC2 dictionary/glossary.
-
-It is in very draft form - don’t look at it yet
-
-
 Some caveat about definitions in context of openc2
 
 Mixed definitions and abbreviations
-
-Reference other definitions where possible
-  * Webster
-  * IEEE - http://ieeexplore.ieee.org/xpls/dictionary.jsp
-  * ISO
-  * IETF
-  * ITU
-  * NIST
-    * NISTIR 7298 Revision 2
-  * OASIS
-  * OpenC2 specs
 
 Mark each definition whether normative 
 (ie for openc2 this matters) 
@@ -392,6 +396,25 @@ ISO/IEC 24765:2009 defines software as:
 **Yuuki** - 
 
 ## 4. Bibliography and Endnotes
+<a name="myfootnote1">1</a>: Footnote content goes here
+  1. Working Draft of <a name="footnote01">OASIS OpenC2 Language Specification</a> 
+    * hotlink to draft
+    * this will be updated as LS moves thru standardization
+  1. Working Draft of OASIS OpenC2 Actuator Profiles
+    * hotlink to draft
+    * this will be updated as profiles move thru standardization
+  1. Working Draft of OASIS OpenC2 Implementation Considerations
+    * hotlink to draft
+    * this will be updated as IC moves thru standardization
+  1. =*=*=*=*=*=*=*=*=*=*=*=*
   1. make this a list of anything referenced
   1. and any endnotes
   1. will need to keep in sync unless MD can do it automagically
+  1. Webster
+  1. IEEE Dictionary - http://ieeexplore.ieee.org/xpls/dictionary.jsp
+  1. ISO
+  1. IETF
+  1. ITU
+  1. NIST
+    * NISTIR 7298 Revision 2
+  1. OASIS
