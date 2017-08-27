@@ -396,25 +396,24 @@ ISO/IEC 24765:2009 defines software as:
 **Yuuki** - 
 
 ## 4. Bibliography and Endnotes
-<a name="myfootnote1">1</a>: Footnote content goes here
-  1. Working Draft of <a name="footnote01">OASIS OpenC2 Language Specification</a> 
-    * hotlink to draft
-    * this will be updated as LS moves thru standardization
-  1. Working Draft of OASIS OpenC2 Actuator Profiles
-    * hotlink to draft
-    * this will be updated as profiles move thru standardization
-  1. Working Draft of OASIS OpenC2 Implementation Considerations
-    * hotlink to draft
-    * this will be updated as IC moves thru standardization
-  1. =*=*=*=*=*=*=*=*=*=*=*=*
-  1. make this a list of anything referenced
-  1. and any endnotes
-  1. will need to keep in sync unless MD can do it automagically
-  1. Webster
-  1. IEEE Dictionary - http://ieeexplore.ieee.org/xpls/dictionary.jsp
-  1. ISO
-  1. IETF
-  1. ITU
-  1. NIST
-    * NISTIR 7298 Revision 2
-  1. OASIS
+1. Working Draft of <a name="footnote01">OASIS OpenC2 Language Specification</a> 
+  * change this to proper reference format
+  * hotlink to draft
+  * this will be updated as LS moves thru standardization
+1. Working Draft of OASIS OpenC2 Actuator Profiles
+  * hotlink to draft
+  * this will be updated as profiles move thru standardization
+1. Working Draft of OASIS OpenC2 Implementation Considerations
+  * hotlink to draft
+  * this will be updated as IC moves thru standardization
+1. =*=*=*=*=*=*=*=*=*=*=*=*
+1. make this a list of anything referenced
+1. and any endnotes
+1. will need to keep in sync unless MD can do it automagically
+1. Webster
+1. IEEE Dictionary - http://ieeexplore.ieee.org/xpls/dictionary.jsp
+1. ISO
+1. IETF
+1. ITU
+1. NIST
+  * NISTIR 7298 Revision 2
