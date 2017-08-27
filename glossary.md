@@ -64,6 +64,11 @@ The versioning pattern for this document will be T.L.C where:
   * L - incremented each time the OpenC2 Language Subcommittee reviews this document and agrees to the content
   * C - incremented each time the OpenC2
 
+This document is a draft of 0.1.1 - ie:
+* T=0 ie no drafts have yet been approved by the OpenC2 TC
+* L=1 ie based on the baseline 0.1 draft imported from openc2 forum at OpenC2 TC startup
+* C=1 ie this draft contains changes to the 0.1 version
+
 ### 0.6 Status:
 
 This Working Draft (WD) has been produced by one or more TC Members; 
@@ -166,7 +171,7 @@ blah
 
 The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, 
 “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in 
-RFC2119<sup>[1](#footnote01)</sup>.
+RFC2119<sup>[10](#footnote10)</sup>.
 
 ### 1.4 Normative References
 This glossary is non-normative and there are no normative references.
@@ -190,29 +195,25 @@ References cited in this glossary:
 
 
 ### 1.6 Conformance
+This document is informational only and is intended to help in the 
+understanding of the other OpenC2 specifications.
+As such, it does not play a direct role in conformance.
 
 ### 1.7 Acknowledgments
+TODO
 
 ## 2. Context
+TODO text
+* prose to help understand terms in context. 
+* Chicken and egg on understanding terms in context of other terms. 
+* Not intended to be requirements style use cases but instead just explanations to help in understanding of the words
 
 ## 3. Glossary
 
-Some caveat about definitions in context of openc2
-
-Mixed definitions and abbreviations
-
-Mark each definition whether normative 
-(ie for openc2 this matters) 
-or informative (might help with reading explanatory information). 
-Btw normative defintions need to be in a normative document 
-and copied here since this will be an informative document (I assume). 
-Mark normative with *.
-
-Make in html and filterable (eg only IACD or only normative or only “keyword”)
-
-Need style guide for glossary
-
-Should it be wiki instead of google doc?
+TODO text
+* Some caveat about definitions in context of openc2
+* Mixed definitions and abbreviations
+* endnotes contain references when text is adapted from another standard
 
 ### 3.1 A-E
 
@@ -222,7 +223,7 @@ Should it be wiki instead of google doc?
 (B) the first field of the openC2 command. 
 The ACTUATOR executes the ACTION on the TARGET.  
 The action is the verb that is what the command is to do. 
-See LDD Section 3.3 for the ?36? actions in openC2. 
+See Language Specification Section 3.3 (TODO check still that number) for the ?36? actions in openC2. 
 In the example below the firewall is told to block (action=deny) an ip.
 ````
     {
