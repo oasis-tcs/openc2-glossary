@@ -396,10 +396,7 @@ ISO/IEC 24765:2009 defines software as:
 **Yuuki** - 
 
 ## 4. Bibliography and Endnotes
-1. Working Draft of <a name="footnote01">OASIS OpenC2 Language Specification</a> 
-  * change this to proper reference format
-  * hotlink to draft
-  * this will be updated as LS moves thru standardization
+1. Working Draft of <a name="footnote01">OASIS OpenC2 Language Specification</a> ;change this to proper reference format; hotlink to draft; this will be updated as LS moves thru standardization
 1. Working Draft of OASIS OpenC2 Actuator Profiles
   * hotlink to draft
   * this will be updated as profiles move thru standardization
