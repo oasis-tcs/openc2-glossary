@@ -4,9 +4,9 @@
 
 
 # OpenC2 Glossary
-Version 0.1.2
+Version 0.1.01
 
-25-August-2017 (update once 0.1.2 stable)
+27-August-2017 
 
 ## 0. Preface
 
@@ -58,16 +58,18 @@ Other aspects of coordinated cyber response such as sensing,
 analytics, and selecting appropriate 
 courses of action are beyond the scope of OpenC2.
 
+This glossary is an informative, non-normative document to aid in the understanding of OpenC2 specifications.
+
 ### 0.5 Version:
 The versioning pattern for this document will be T.L.C where:
-  * T - incremented each time the OpenC2 Technical Committee approves this document as a Committee Note Draft (editorial note - or is this a specification draft?)
+  * T - incremented each time the OpenC2 Technical Committee approves this document as a Committee Note Draft
   * L - incremented each time the OpenC2 Language Subcommittee reviews this document and agrees to the content
-  * C - incremented each time the OpenC2
+  * C - incremented each time the OpenC2 GitHub as a commit to it, ie the wording is changed.
 
-This document is a draft of 0.1.1 - ie:
+This document is a draft of 0.1.01 - ie:
 * T=0 ie no drafts have yet been approved by the OpenC2 TC
 * L=1 ie based on the baseline 0.1 draft imported from openc2 forum at OpenC2 TC startup
-* C=1 ie this draft contains changes to the 0.1 version
+* C=1 ie this draft contains the first set of changes to the 0.1 version
 
 Note versions can be compared on github.
 
@@ -159,15 +161,24 @@ add tof here TODO
 
 ## 1. Introduction
 
-blah
+This glossary is an informative, non-normative document to aid in the understanding 
+of the OpenC2 specifications.
 
 ### 1.1 Goal
 
-blah
+The goal of this glossary is to contain definitions for all words that 
+have specific meanings in the context of OpenC2. 
+This goal can be considered met if all of the terms in any of the OpenC2 Specifications or Documents
+can be found in this glossary.
 
 ### 1.2 Purpose and Scope
 
-blah
+The purpose of this document is solely informational.
+The following two sections approach defining the terms from different perspectives.
+Section 2 provides context in prose form since many of the words are defined with respect to each other.
+Section 3 contains a list of every word in the glossary with it's definition.
+Whenever a word from the glossary is used in either Section 2 or Section 3, 
+it is hotlinked to it's definiton in Section 3.
 
 ### 1.3 Terminology
 
