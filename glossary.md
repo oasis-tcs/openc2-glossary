@@ -69,6 +69,8 @@ This document is a draft of 0.1.1 - ie:
 * L=1 ie based on the baseline 0.1 draft imported from openc2 forum at OpenC2 TC startup
 * C=1 ie this draft contains changes to the 0.1 version
 
+Note versions can be compared on github.
+
 ### 0.6 Status:
 
 This Working Draft (WD) has been produced by one or more TC Members; 
@@ -210,10 +212,16 @@ TODO text
 
 ## 3. Glossary
 
-TODO text
-* Some caveat about definitions in context of openc2
-* Mixed definitions and abbreviations
-* endnotes contain references when text is adapted from another standard
+The words being defined are in alphabetical order, and are in **bold**. 
+Where possible, definitions from other sources will be used and cited.
+But the purpose of this glossary is to define terms in the context of OpenC2 
+and some overloading of meanings may be necessary.
+The glossary will attempt to explain the context 
+- ie when OpenC2 meaning may differ from meanings in other contexts.
+Acronyms will be treated like words to define.
+I.e. acronyms will not be in a separate list.
+When other glossary words are used in a defintion, they will be hotlinked to the glossary definition.
+
 
 ### 3.1 A-E
 
