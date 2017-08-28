@@ -177,8 +177,15 @@ The purpose of this document is solely informational.
 The following two sections approach defining the terms from different perspectives.
 Section 2 provides context in prose form since many of the words are defined with respect to each other.
 Section 3 contains a list of every word in the glossary with it's definition.
+
 Whenever a word from the glossary is used in either Section 2 or Section 3, 
 it is hotlinked to it's definiton in Section 3.
+Where possible, the definitions in Section 3 will mention which OpenC2 documents the term is used in.
+
+Where possible, the definitions in Section 3 will contain 
+both the OpenC2 definition as well as alternative definitions when used in other contexts.
+For example the term **Action** contains both the Webster Dictionary definition 
+as well the very specific OpenC2 meaning as a field in an OpenC2 command.
 
 ### 1.3 Terminology
 
