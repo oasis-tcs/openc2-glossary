@@ -3,6 +3,7 @@
 </p>
 
 
+
 # OpenC2 Glossary
 Version 0.1.01
 
