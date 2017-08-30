@@ -221,6 +221,7 @@ As such, it does not play a direct role in conformance.
 
 ### 1.7 Acknowledgments
 TODO
+* Dave Lemire
 
 ## 2. Context
 TODO text
