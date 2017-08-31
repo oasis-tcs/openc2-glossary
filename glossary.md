@@ -4,9 +4,9 @@
 
 
 # OpenC2 Glossary
-Version 0.1.01
+Version 0.1.03
 
-27-August-2017 
+30-August-2017 
 
 ## 0. Preface
 
@@ -66,10 +66,10 @@ The versioning pattern for this document will be T.L.C where:
   * L - incremented each time the OpenC2 Language Subcommittee reviews this document and agrees to the content
   * C - incremented each time the OpenC2 GitHub as a commit to it, ie the wording is changed.
 
-This document is a draft of 0.1.01 - ie:
+This document is a draft of 0.1.03 - ie:
 * T=0 ie no drafts have yet been approved by the OpenC2 TC
 * L=1 ie based on the baseline 0.1 draft imported from openc2 forum at OpenC2 TC startup
-* C=1 ie this draft contains the first set of changes to the 0.1 version
+* C=3 ie this draft contains the third set of changes to the 0.1 version
 
 Note versions can be compared on github.
 
@@ -220,8 +220,9 @@ understanding of the other OpenC2 specifications.
 As such, it does not play a direct role in conformance.
 
 ### 1.7 Acknowledgments
-TODO
+Substantial contributions to this specification from the following individuals are gratefully acknowledged:
 * Dave Lemire
+* Duncan Sparrell
 
 ## 2. Context
 TODO text
