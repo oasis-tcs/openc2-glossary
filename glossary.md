@@ -234,7 +234,7 @@ but instead just explanations to help in understanding of the words.
 However it does attempt to be accurate.
 I.e. the examples used should be valid.
 
-_**OpenC2**_<sup>[def](#openc2)</sup> 
+_**OpenC2**_<sup>[def](#oc2)</sup> 
 _**commands**_ <sup>[def](#command)</sup>
 are sent from a _**producer**_<sup>[def](#producer)</sup>
  to a _**consumer**_<sup>[def](#consumer)</sup>
