@@ -229,6 +229,11 @@ TODO text
 * Chicken and egg on understanding terms in context of other terms. 
 * Not intended to be requirements style use cases but instead just explanations to help in understanding of the words
 
+_**OpenC2**_(hotlink) _**commands**_(hotlink) are set from a _**producer**_(hotlink) to a _**consumer**_(hotlink) 
+as shown in Figure X(TODO).
+
+put figure here
+
 ## 3. Glossary
 
 The words being defined are in alphabetical order, and are in **bold**. 
