@@ -229,10 +229,15 @@ TODO text
 * Chicken and egg on understanding terms in context of other terms. 
 * Not intended to be requirements style use cases but instead just explanations to help in understanding of the words
 
-_**OpenC2**_(hotlink) _**commands**_(hotlink) are set from a _**producer**_(hotlink) to a _**consumer**_(hotlink) 
+_**OpenC2**_<sup>[definition](#openc2)</sup> 
+_**commands**_ <sup>[definition](#command)</sup>
+are set from a _**producer**_<sup>[definition](#producer)</sup>
+ to a _**consumer**_<sup>[definition](#consumer)</sup>
 as shown in Figure X(TODO).
 
-put figure here
+![Producer Consumer](https://github.com/sparrell/openc2-glossary/raw/Context/images/producer.png)
+
+Figure X
 
 ## 3. Glossary
 
@@ -244,7 +249,8 @@ The glossary will attempt to explain the context
 - ie when OpenC2 meaning may differ from meanings in other contexts.
 Acronyms will be treated like words to define.
 I.e. acronyms will not be in a separate list.
-When other glossary words are used in a defintion, they will be hotlinked to the glossary definition.
+When other glossary words are used in a defintion, 
+they will be _**bold-italics**_ and hotlinked to the glossary definition.
 
 
 ### 3.1 A-E
@@ -381,6 +387,8 @@ in the context of openC2 the word orchestrator is defined more narrowly to mean 
 **Peer2Peer** - 
 
 **Point2Point** - 
+
+**Producer** - <a name="producer">The entity that produces</a> an OpenC2 command. See section 2 for example.
 
 **Program** - “A combination of computer instructions and data definitions 
 that enable computer hardware to perform computational or control functions.” 
