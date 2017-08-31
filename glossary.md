@@ -229,10 +229,10 @@ TODO text
 * Chicken and egg on understanding terms in context of other terms. 
 * Not intended to be requirements style use cases but instead just explanations to help in understanding of the words
 
-_**OpenC2**_<sup>[definition](#openc2)</sup> 
-_**commands**_ <sup>[definition](#command)</sup>
-are set from a _**producer**_<sup>[definition](#producer)</sup>
- to a _**consumer**_<sup>[definition](#consumer)</sup>
+_**OpenC2**_<sup>[def](#openc2)</sup> 
+_**commands**_ <sup>[def](#command)</sup>
+are sent from a _**producer**_<sup>[def](#producer)</sup>
+ to a _**consumer**_<sup>[def](#consumer)</sup>
 as shown in Figure X(TODO).
 
 ![Producer Consumer](https://github.com/sparrell/openc2-glossary/raw/Context/images/producer.png)
@@ -250,7 +250,8 @@ The glossary will attempt to explain the context
 Acronyms will be treated like words to define.
 I.e. acronyms will not be in a separate list.
 When other glossary words are used in a defintion, 
-they will be _**bold-italics**_ and hotlinked to the glossary definition.
+they will be _**bold-italics**_ and hotlinked to the glossary definition by a superscript "def".
+Some extremely common terms (eg. OpenC2) will not be highlighted/linked beyong the first use.
 
 
 ### 3.1 A-E
