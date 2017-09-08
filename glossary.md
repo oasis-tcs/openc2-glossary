@@ -4,9 +4,9 @@
 
 
 # OpenC2 Glossary
-Version 0.1.03
+Version 0.1.04
 
-30-August-2017 
+31-August-2017 
 
 ## 0. Preface
 
@@ -66,10 +66,10 @@ The versioning pattern for this document will be T.L.C where:
   * L - incremented each time the OpenC2 Language Subcommittee reviews this document and agrees to the content
   * C - incremented each time the OpenC2 GitHub as a commit to it, ie the wording is changed.
 
-This document is a draft of 0.1.03 - ie:
+This document is a draft of 0.1.04 - ie:
 * T=0 ie no drafts have yet been approved by the OpenC2 TC
 * L=1 ie based on the baseline 0.1 draft imported from openc2 forum at OpenC2 TC startup
-* C=3 ie this draft contains the third set of changes to the 0.1 version
+* C=4 ie this draft contains the fourth set of changes to the 0.1 version
 
 Note versions can be compared on github.
 
@@ -225,10 +225,25 @@ Substantial contributions to this specification from the following individuals a
 * Duncan Sparrell
 
 ## 2. Context
-TODO text
-* prose to help understand terms in context. 
-* Chicken and egg on understanding terms in context of other terms. 
-* Not intended to be requirements style use cases but instead just explanations to help in understanding of the words
+Section 3 is organized similar to a typical dictionary 
+with the terms to be defined listed alphabetically.
+Sometimes it is also helpful to understand the terms in context of other terms.
+This section is an attempt to use the terms 
+as they would be used in the OpenC2 context.
+It is not intended to be requirements style use cases 
+but instead just explanations to help in understanding of the words.
+However it does attempt to be accurate.
+I.e. the examples used should be valid.
+
+_**OpenC2**_<sup>[def](#oc2)</sup> 
+_**commands**_ <sup>[def](#command)</sup>
+are sent from a _**producer**_<sup>[def](#producer)</sup>
+ to a _**consumer**_<sup>[def](#consumer)</sup>
+as shown in Figure X(TODO).
+
+![Producer Consumer](https://github.com/sparrell/openc2-glossary/raw/Context/images/producer.png)
+
+Figure X
 
 ## 3. Glossary
 
@@ -240,7 +255,9 @@ The glossary will attempt to explain the context
 - ie when OpenC2 meaning may differ from meanings in other contexts.
 Acronyms will be treated like words to define.
 I.e. acronyms will not be in a separate list.
-When other glossary words are used in a defintion, they will be hotlinked to the glossary definition.
+When other glossary words are used in a defintion, 
+they will be _**bold-italics**_ and hotlinked to the glossary definition by a superscript "def".
+Some extremely common terms (eg. OpenC2) will not be highlighted/linked beyong the first use.
 
 
 ### 3.1 A-E
@@ -299,7 +316,9 @@ In the example below the firewall is told to block (action=deny) an ip.
 
 **COA** - see Course of Action 
 
-**Command** - in openc2 see link
+**Command** - <a name="command">From</a> the Language Specification<sup>[1](#footnote01)</sup>, "The OpenC2 Command communicates an action to be performed on a target and may include the entity that is to execute the action." See section 2 for example.
+
+**Consumer** - <a name="consumer">The</a> entity that receives an OpenC2 command. See section 2 for example.
 
 **CTI** - 
 
@@ -367,7 +386,7 @@ compiler, linkage editor, or executive routine.
 
 **Ocas** - link to a particular openC2 simulator implemented in erlang
 
-**OpenC2** - duh?
+**OpenC2** - <a name="oc2">In</a> the context of the OASIS OpenC2 Specifications<sup>[1](#footnote01),[2](#footnote02),[3](#footnote03),[4](#footnote04)</sup>, OpenC2 used alone is generally shorthand for the OpenC2 Language. OpenC2 used as an adjective can usually be inferred by context to mean the some aspect from the collection of the specifications.
 
 **Orchestrator - In IT and security there are many types of orchestrators. 
 in the context of openC2 the word orchestrator is defined more narrowly to mean “what goes here”
@@ -377,6 +396,8 @@ in the context of openC2 the word orchestrator is defined more narrowly to mean 
 **Peer2Peer** - 
 
 **Point2Point** - 
+
+**Producer** - <a name="producer">The</a> entity that sends an OpenC2 command. See section 2 for example.
 
 **Program** - “A combination of computer instructions and data definitions 
 that enable computer hardware to perform computational or control functions.” 
