@@ -348,7 +348,7 @@ In the example below the firewall is told to block (action=deny) an ip.
 **IEEE** - 
 
 **Integrated Active Cyber Defense** - say something. 
-See https://secwww.jhuapl.edu/iacdcommunityday/Resources/IACD%20Baseline%20Reference%20Architecture%20-%20Final%20PR.pdf
+See https://secwww.jhuapl.edu/IACD/Resources/Architecture/IACD%20Baseline%20Reference%20Architecture%20-%20Final%20PR.pdf
 
 **ISO** - 
 
