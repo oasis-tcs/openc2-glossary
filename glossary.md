@@ -245,7 +245,7 @@ as shown in Figure 1.
 
 Figure 1
 
-Some OpenC2 use cases come from the
+The original impetus for OpenC2 came out of the
 _**Integrated Adaptive Cyber Defense**_<sup>[def](#iacd)</sup>
 (IACD) work going on within the US Government, academia, and industry.
 Since IACD terminology is used in some OpenC2 use cases, it will
