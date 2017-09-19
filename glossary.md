@@ -248,7 +248,7 @@ Figure 1
 Some OpenC2 use cases come from the
 _**Integrated Adaptive Cyber Defense**_<sup>[def](#iacd)</sup>
 (IACD) work going on within the US Government, academia, and industry.
-Since IACD terminology is used in OpenC2 use cases, it will
+Since IACD terminology is used in some OpenC2 use cases, it will
 be included here.
 By leveraging automation, IACD moves human defenders from 'in the loop' 
 to 'on the loop'.
@@ -296,7 +296,7 @@ In the example below the firewall is told to block (action=deny) an ip.
 
 **Active Defense Harbinger Distribution** - a purple team unix distro
 
-**Actuator** - A specific field in the openC2 language. The ACTUATOR executes the ACTION on the TARGET. In the example below the firewall (an ACTUATOR) is told to block an ip
+**Actuator** - <a name="actuator">A</a> specific field in the openC2 language. The ACTUATOR executes the ACTION on the TARGET. In the example below the firewall (an ACTUATOR) is told to block an ip
 ````
     {
     "action": "deny",
@@ -308,7 +308,11 @@ In the example below the firewall is told to block (action=deny) an ip.
        ...
 ````
 
-**Acting** - part of IACD
+**Acting** - <a name="act">part</a> of IACD<sup>[def](#iacd)</sup>.
+Acting is executing the commands sent by 
+_**Decision Making**_<sup>[def](#decide)</sup> 
+to change the state of the system.
+Acting is performed by _**Actuators**_<sup>[def](#actuator)</sup>.
 
 **ADHD** - see Active Defense Harbinger Distribution
 
@@ -337,7 +341,7 @@ In the example below the firewall is told to block (action=deny) an ip.
 
 **Course of Action** - get from STIX?
 
-**Decision Making** - <a name="decide">part./a> of IACD. 
+**Decision Making** - <a name="decide">part</a> of IACD<sup>[def](#iacd)</sup>. 
 Decison making is deciding what to do based on 
 _**Sensing**_<sup>[def](#sense)</sup> and 
 _**Sense-Making**_<sup>[def](#makesense)</sup> data, 
@@ -364,7 +368,7 @@ OpenC2 command to Acting.
 
 **Host** - 
 
-**IACD** - see Integrated Active Cyber Defense
+**IACD** - see Integrated Active Cyber Defense<sup>[def](#iacd)</sup>
 
 **IDS/IPS**- 
 
@@ -446,12 +450,12 @@ that enable computer hardware to perform computational or control functions.”
 
 **Security Onion** - a blue team unix distro
 
-**Sense Making** - <a name="makesense">part</a> of IACD. Sense Making is 
+**Sense Making** - <a name="makesense">part</a> of IACD<sup>[def](#iacd)</sup>. Sense Making is 
 making sense of the data. Sense Making using involves data analytics and augmentng the data from _**Sensing**_<sup>[def](#sense)</sup>. For example adding the geolocation and netlocation of an ip address or adding reputation to the ip. The enriched data is passed to 
 _**Decision-Making**_<sup>[def](#decide)</sup>.
 
 
-**Sensing** - <a name="sense">part</a>part of IACD. Sensing is the function performed by sensors in creating security data and passing that data to 
+**Sensing** - <a name="sense">part</a>part of IACD<sup>[def](#iacd)</sup>. Sensing is the function performed by sensors in creating security data and passing that data to 
 _**Sense-Making**_<sup>[def](#makesense)</sup>.
 
 **Software** - currently a ‘target’???
