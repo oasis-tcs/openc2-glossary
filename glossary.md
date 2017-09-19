@@ -375,8 +375,10 @@ OpenC2 command to Acting.
 **IEEE** - 
 
 **Integrated Active Cyber Defense** - 
-<a name="iacd">(IACD)</a>
-https://secwww.jhuapl.edu/IACD/
+<a name="iacd">(IACD)</a> - is a program among the US Government, 
+academia, and industry to leverage automation
+to move human defenders from 'in the loop' to 'on the loop'.
+See https://secwww.jhuapl.edu/IACD/ for more information.
 
 **ISO** - 
 
@@ -455,7 +457,9 @@ making sense of the data. Sense Making using involves data analytics and augment
 _**Decision-Making**_<sup>[def](#decide)</sup>.
 
 
-**Sensing** - <a name="sense">part</a>part of IACD<sup>[def](#iacd)</sup>. Sensing is the function performed by sensors in creating security data and passing that data to 
+**Sensing** - <a name="sense">part</a> of IACD<sup>[def](#iacd)</sup>. 
+Sensing is the function performed by sensors in creating security data 
+and passing that data to 
 _**Sense-Making**_<sup>[def](#makesense)</sup>.
 
 **Software** - currently a ‘target’???
