@@ -438,7 +438,7 @@ that enable computer hardware to perform computational or control functions.”
 
 **Security Onion** - a blue team unix distro
 
-**Sense Making** - <a name="makesense">part./a> of IACD. Sense Making is 
+**Sense Making** - <a name="makesense">part</a> of IACD. Sense Making is 
 making sense of the data. Sense Making using involves data analytics and augmentng the data from _**Sensing**_<sup>[def](#sense)</sup>. For example adding the geolocation and netlocation of an ip address or adding reputation to the ip. The enriched data is passed to 
 _**Decision-Making**_<sup>[def](#decide)</sup>.
 
