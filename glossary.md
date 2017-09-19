@@ -4,7 +4,7 @@
 
 
 # OpenC2 Glossary
-Version 0.1.04
+Version 0.1.05
 
 31-August-2017 
 
@@ -66,10 +66,10 @@ The versioning pattern for this document will be T.L.C where:
   * L - incremented each time the OpenC2 Language Subcommittee reviews this document and agrees to the content
   * C - incremented each time the OpenC2 GitHub as a commit to it, ie the wording is changed.
 
-This document is a draft of 0.1.04 - ie:
+This document is a draft of 0.1.05 - ie:
 * T=0 ie no drafts have yet been approved by the OpenC2 TC
 * L=1 ie based on the baseline 0.1 draft imported from openc2 forum at OpenC2 TC startup
-* C=4 ie this draft contains the fourth set of changes to the 0.1 version
+* C=5 ie this draft contains the fifth set of changes to the 0.1 version
 
 Note versions can be compared on github.
 
@@ -239,11 +239,24 @@ _**OpenC2**_<sup>[def](#oc2)</sup>
 _**commands**_ <sup>[def](#command)</sup>
 are sent from a _**producer**_<sup>[def](#producer)</sup>
  to a _**consumer**_<sup>[def](#consumer)</sup>
-as shown in Figure X(TODO).
+as shown in Figure 1.
 
 ![Producer Consumer](https://github.com/sparrell/openc2-glossary/raw/Context/images/producer.png)
 
-Figure X
+Figure 1
+
+Some OpenC2 use cases come from the
+_**Integrated Adaptive Cyber Defense**_<sup>[def](#iacd)</sup>
+(IACD) work going on within the US Government, academia, and industry.
+Since IACD terminology is used in OpenC2 use cases, it will
+be included here.
+By leveraging automation, IACD moves human defenders from 'in the loop' 
+to 'on the loop'.
+IACD functionally decomposes cyber defense funtions into
+_**Sensing**_<sup>[def](#sense)</sup>,
+_**Sense-Making**_<sup>[def](#makesense)</sup>,
+_**Decision-Making**_<sup>[def](#decide)</sup>, and
+_**Acting**_<sup>[def](#act)</sup>.
 
 ## 3. Glossary
 
@@ -324,7 +337,9 @@ In the example below the firewall is told to block (action=deny) an ip.
 
 **Course of Action** - get from STIX?
 
-**Decision Making** - part of IACD
+**Decision Making** - <a name="makesense">part./a> of IACD. Decison making is deciding what to do based on 
+_**Sensing**_<sup>[def](#sense)</sup> and _**Sense-Making**_<sup>[def](#makesense)</sup> data, and on security policies. The decision reached result in 
+_**Acting**_<sup>[def](#act)</sup> ie the sending of OpenC2 commands. For example sensing may detect beaconing, sense making augments the ip with the domain evildomain.com. Decision making decides to send the "mitigate evildomaing.com" OpenC2 command to Acting.
 
 **Enclave** - 
 
@@ -347,8 +362,9 @@ In the example below the firewall is told to block (action=deny) an ip.
 
 **IEEE** - 
 
-**Integrated Active Cyber Defense** - say something. 
-See https://secwww.jhuapl.edu/iacdcommunityday/Resources/IACD%20Baseline%20Reference%20Architecture%20-%20Final%20PR.pdf
+**Integrated Active Cyber Defense** - 
+(IACD) 
+https://secwww.jhuapl.edu/IACD/
 
 **ISO** - 
 
@@ -422,9 +438,13 @@ that enable computer hardware to perform computational or control functions.”
 
 **Security Onion** - a blue team unix distro
 
-**Sense Making** - part of IACD. Sense Making is the act of taking a cyber event from sensing, enriching it with meta-information, and passing the enriched information as an Action Alert to Decision Making.
+**Sense Making** - <a name="makesense">part./a> of IACD. Sense Making is 
+making sense of the data. Sense Making using involves data analytics and augmentng the data from _**Sensing**_<sup>[def](#sense)</sup>. For example adding the geolocation and netlocation of an ip address or adding reputation to the ip. The enriched data is passed to 
+_**Decision-Making**_<sup>[def](#decide)</sup>.
 
-**Sensing** - part of IACD. Sensing is the act a sensor creating a cyber event and passing that event to the Sense Making analytics.
+
+**Sensing** - <a name="sense">part</a>part of IACD. Sensing is the function performed by sensors in creating security data and passing that data to 
+_**Sense-Making**_<sup>[def](#makesense)</sup>.
 
 **Software** - currently a ‘target’???
 ISO/IEC 24765:2009 defines software as:
