@@ -337,9 +337,17 @@ In the example below the firewall is told to block (action=deny) an ip.
 
 **Course of Action** - get from STIX?
 
-**Decision Making** - <a name="makesense">part./a> of IACD. Decison making is deciding what to do based on 
-_**Sensing**_<sup>[def](#sense)</sup> and _**Sense-Making**_<sup>[def](#makesense)</sup> data, and on security policies. The decision reached result in 
-_**Acting**_<sup>[def](#act)</sup> ie the sending of OpenC2 commands. For example sensing may detect beaconing, sense making augments the ip with the domain evildomain.com. Decision making decides to send the "mitigate evildomaing.com" OpenC2 command to Acting.
+**Decision Making** - <a name="decide">part./a> of IACD. 
+Decison making is deciding what to do based on 
+_**Sensing**_<sup>[def](#sense)</sup> and 
+_**Sense-Making**_<sup>[def](#makesense)</sup> data, 
+and on security policies. 
+The decision reached result in 
+_**Acting**_<sup>[def](#act)</sup> ie the sending of OpenC2 commands. 
+For example sensing may detect beaconing, 
+sense making augments the ip with the domain evildomain.com. 
+Decision making decides to send the "mitigate evildomaing.com" 
+OpenC2 command to Acting.
 
 **Enclave** - 
 
@@ -363,7 +371,7 @@ _**Acting**_<sup>[def](#act)</sup> ie the sending of OpenC2 commands. For exampl
 **IEEE** - 
 
 **Integrated Active Cyber Defense** - 
-(IACD) 
+<a name="iacd">(IACD)</a>
 https://secwww.jhuapl.edu/IACD/
 
 **ISO** - 
