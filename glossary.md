@@ -241,7 +241,7 @@ are sent from a _**producer**_<sup>[def](#producer)</sup>
  to a _**consumer**_<sup>[def](#consumer)</sup>
 as shown in Figure 1.
 
-![Producer Consumer](https://github.com/oasis-tcs/openc2-glossary/images/producer.png)
+![Producer Consumer](https://raw.githubusercontent.com/oasis-tcs/openc2-glossary/master/images/producer.png)
 
 Figure 1
 
