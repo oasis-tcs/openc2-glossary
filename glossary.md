@@ -4,9 +4,9 @@
 
 
 # OpenC2 Glossary
-Version 0.1.05
+Version 0.1.06
 
-19-Sep-2017 
+2-Oct-2017 
 
 ## 0. Preface
 
