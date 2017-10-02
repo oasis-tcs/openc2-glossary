@@ -294,8 +294,6 @@ In the example below the firewall is told to block (action=deny) an ip.
         ...
 ````
 
-**Active Defense Harbinger Distribution** - a purple team unix distro
-
 **Actuator** - <a name="actuator">A</a> specific field in the openC2 language. The ACTUATOR executes the ACTION on the TARGET. In the example below the firewall (an ACTUATOR) is told to block an ip
 ````
     {
@@ -314,22 +312,11 @@ _**Decision Making**_<sup>[def](#decide)</sup>
 to change the state of the system.
 Acting is performed by _**Actuators**_<sup>[def](#actuator)</sup>.
 
-**ADHD** - see Active Defense Harbinger Distribution
-
-**Adversary** - 
-
 **Alert** - 
-
-**Application** - “A computer program that performs some desired function.” 
-(IEEE Std 1003.5 - 1999. POSIX ADA)
-
-**Black List** - 
 
 **C2** - 
 
 **C3I** - 
-
-**CND** - 
 
 **COA** - see Course of Action 
 
@@ -353,20 +340,10 @@ sense making augments the ip with the domain evildomain.com.
 Decision making decides to send the "mitigate evildomaing.com" 
 OpenC2 command to Acting.
 
-**Enclave** - 
-
-**Enterprise** - 
-
 ### 3.2 F-I
 
 
 **Firewall** -in the context of openC2, firewall denotes the firewall functionality of an actuator ie hardware and/or software system that monitors incoming and outgoing network traffic and controls that traffic (eg logs, blocks, allows) based on security policy defined by a set of rules.
-
-**Hacker** - White or Black Hat, Red/Blue/Purple Team
-
-**Honeypot** - 
-
-**Host** - 
 
 **IACD** - see Integrated Active Cyber Defense<sup>[def](#iacd)</sup>
 
@@ -392,27 +369,13 @@ See https://secwww.jhuapl.edu/IACD/ for more information.
 
 **JSON** - 
 
-**Linux** - 
-
-**Malware** - 
-
 **Mitigate** - one of the 37? Openc2 commands (put them all in?)
-
-**Mitigation System Manager** - used in figure. Is it in-scope?
-
-**Modifier** - part of OpenC2
-
-**Module** - “ (A) A program unit that is discrete and identifiable with respect to compiling, 
-combining with other units, and loading; 
-for example, input to or output from an assembler, 
-compiler, linkage editor, or executive routine.  
-(B) A logically separable part of a program.” (IEEE Std 1633-2008 Software Reliability)
 
 **NIST** - National Institute of Standards - an agency of the US federal government
 
 ### 3.4 O-R
 
-**OASIS** - duh?
+**OASIS** - 
 
 **Ocas** - link to a particular openC2 simulator implemented in erlang
 
@@ -423,23 +386,9 @@ in the context of openC2 the word orchestrator is defined more narrowly to mean 
 
 **OrchID** - 
 
-**Peer2Peer** - 
-
-**Point2Point** - 
-
 **Producer** - <a name="producer">The</a> entity that sends an OpenC2 command. See section 2 for example.
 
-**Program** - “A combination of computer instructions and data definitions 
-that enable computer hardware to perform computational or control functions.” 
-(The IEEE Standards Dictionary: Glossary of Terms & Definitions, IEEE Std 610.12-1990 )
-
-**Proxy** - 
-
 **Publish** - Subscribe - also known as Pub/Sub - 
-
-**NixOS** - 
-
-**Reference Implementation** - 
 
 **Response** - 
 
@@ -447,10 +396,6 @@ that enable computer hardware to perform computational or control functions.”
 ### 3.5 S-Z
 
 **SDN** - Software Defined Network
-
-**Security** - ?
-
-**Security Onion** - a blue team unix distro
 
 **Sense Making** - <a name="makesense">part</a> of IACD<sup>[def](#iacd)</sup>. Sense Making is 
 making sense of the data. Sense Making using involves data analytics and augmentng the data from _**Sensing**_<sup>[def](#sense)</sup>. For example adding the geolocation and netlocation of an ip address or adding reputation to the ip. The enriched data is passed to 
@@ -461,12 +406,6 @@ _**Decision-Making**_<sup>[def](#decide)</sup>.
 Sensing is the function performed by sensors in creating security data 
 and passing that data to 
 _**Sense-Making**_<sup>[def](#makesense)</sup>.
-
-**Software** - currently a ‘target’???
-ISO/IEC 24765:2009 defines software as:
-
-> (1) all or part of the programs, procedures, rules, and associated documentation of an information processing system.
-> (2) computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer system.
 
 **Specifier** - part of OpenC2
 
@@ -486,12 +425,6 @@ ISO/IEC 24765:2009 defines software as:
         }
     }
 ````
-
-**Threat** - 
-
-**Virtual Machine** - 
-
-**Whitelist** - 
 
 **Yuuki** - 
 
