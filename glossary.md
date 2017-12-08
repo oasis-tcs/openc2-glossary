@@ -268,7 +268,7 @@ The glossary will attempt to explain the context, i.e., when OpenC2 meaning may 
 - Acronyms will be treated like words to define (i.e., acronyms will not be in a separate list).
 - When other glossary words are used in a definition, 
 they will be _**bold-italics**_ and hotlinked to the glossary definition by a superscript "def".
-- Some extremely common terms (e.g., OpenC2) will fnot be highlighted/linked beyond the first use.
+- Some extremely common terms (e.g., OpenC2) will not be highlighted/linked beyond the first use.
 
 
 ### 3.1 A-E
