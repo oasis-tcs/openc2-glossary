@@ -264,13 +264,11 @@ The words being defined are in alphabetical order, and are in **bold**.
 Where possible, definitions from other sources will be used and cited.
 But the purpose of this glossary is to define terms in the context of OpenC2 
 and some overloading of meanings may be necessary.
-The glossary will attempt to explain the context 
-- ie when OpenC2 meaning may differ from meanings in other contexts.
-Acronyms will be treated like words to define.
-I.e. acronyms will not be in a separate list.
-When other glossary words are used in a defintion, 
+The glossary will attempt to explain the context, i.e., when OpenC2 meaning may differ from meanings in other contexts.
+- Acronyms will be treated like words to define (i.e., acronyms will not be in a separate list).
+- When other glossary words are used in a definition, 
 they will be _**bold-italics**_ and hotlinked to the glossary definition by a superscript "def".
-Some extremely common terms (eg. OpenC2) will not be highlighted/linked beyong the first use.
+- Some extremely common terms (e.g., OpenC2) will not be highlighted/linked beyond the first use.
 
 
 ### 3.1 A-E
